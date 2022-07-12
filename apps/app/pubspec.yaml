@@ -1,0 +1,22 @@
+name: app
+version: 1.0.0+1
+publish_to: none
+description: dominican id validation using public api
+environment:
+  sdk: '>=2.17.5 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter_form_builder: ^7.3.1
+  form_builder_validators: ^8.1.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
